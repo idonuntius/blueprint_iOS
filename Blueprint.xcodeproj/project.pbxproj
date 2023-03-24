@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F43F89629CDED1B009106C6 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 1F43F89529CDED1B009106C6 /* Swinject */; };
 		1F6C9D4729CDE1E8000CE2BF /* BlueprintApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C9D4629CDE1E8000CE2BF /* BlueprintApp.swift */; };
 		1F6C9D4929CDE1E8000CE2BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C9D4829CDE1E8000CE2BF /* ContentView.swift */; };
 		1F6C9D4B29CDE1E8000CE2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6C9D4A29CDE1E8000CE2BF /* Assets.xcassets */; };
@@ -14,6 +15,12 @@
 		1F6C9D5929CDE1E8000CE2BF /* BlueprintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C9D5829CDE1E8000CE2BF /* BlueprintTests.swift */; };
 		1F6C9D6329CDE1E8000CE2BF /* BlueprintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C9D6229CDE1E8000CE2BF /* BlueprintUITests.swift */; };
 		1F6C9D6529CDE1E8000CE2BF /* BlueprintUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C9D6429CDE1E8000CE2BF /* BlueprintUITestsLaunchTests.swift */; };
+		1F6C9D7329CDE21F000CE2BF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1F6C9D7229CDE21F000CE2BF /* Alamofire */; };
+		1F6C9D8E29CDE6E7000CE2BF /* DateRequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C9D8D29CDE6E7000CE2BF /* DateRequestExtension.swift */; };
+		1F6C9D9029CDE797000CE2BF /* RepoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C9D8F29CDE797000CE2BF /* RepoEntity.swift */; };
+		1F6C9D9229CDE892000CE2BF /* GithubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C9D9129CDE892000CE2BF /* GithubApi.swift */; };
+		1F6C9D9429CDE991000CE2BF /* ApiAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C9D9329CDE991000CE2BF /* ApiAssembly.swift */; };
+		1FE7F10729CDEA8800AE2823 /* DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7F10629CDEA8800AE2823 /* DI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +40,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1F43F89A29CDED1B009106C6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1F6C9D4329CDE1E8000CE2BF /* Blueprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blueprint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6C9D4629CDE1E8000CE2BF /* BlueprintApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueprintApp.swift; sourceTree = "<group>"; };
@@ -45,6 +65,11 @@
 		1F6C9D5E29CDE1E8000CE2BF /* BlueprintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueprintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6C9D6229CDE1E8000CE2BF /* BlueprintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueprintUITests.swift; sourceTree = "<group>"; };
 		1F6C9D6429CDE1E8000CE2BF /* BlueprintUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueprintUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F6C9D8D29CDE6E7000CE2BF /* DateRequestExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateRequestExtension.swift; sourceTree = "<group>"; };
+		1F6C9D8F29CDE797000CE2BF /* RepoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoEntity.swift; sourceTree = "<group>"; };
+		1F6C9D9129CDE892000CE2BF /* GithubApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApi.swift; sourceTree = "<group>"; };
+		1F6C9D9329CDE991000CE2BF /* ApiAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiAssembly.swift; sourceTree = "<group>"; };
+		1FE7F10629CDEA8800AE2823 /* DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6C9D7329CDE21F000CE2BF /* Alamofire in Frameworks */,
+				1F43F89629CDED1B009106C6 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +99,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F43F89429CDED1B009106C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1F6C9D3A29CDE1E8000CE2BF = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +113,7 @@
 				1F6C9D5729CDE1E8000CE2BF /* BlueprintTests */,
 				1F6C9D6129CDE1E8000CE2BF /* BlueprintUITests */,
 				1F6C9D4429CDE1E8000CE2BF /* Products */,
+				1F43F89429CDED1B009106C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +130,15 @@
 		1F6C9D4529CDE1E8000CE2BF /* Blueprint */ = {
 			isa = PBXGroup;
 			children = (
+				1F6C9D8A29CDE399000CE2BF /* Presentation */,
+				1F6C9D8629CDE380000CE2BF /* Domain */,
+				1F6C9D8329CDE35E000CE2BF /* Data */,
 				1F6C9D4629CDE1E8000CE2BF /* BlueprintApp.swift */,
 				1F6C9D4829CDE1E8000CE2BF /* ContentView.swift */,
 				1F6C9D4A29CDE1E8000CE2BF /* Assets.xcassets */,
 				1F6C9D4C29CDE1E8000CE2BF /* Blueprint.entitlements */,
 				1F6C9D4D29CDE1E8000CE2BF /* Preview Content */,
+				1FE7F10629CDEA8800AE2823 /* DI.swift */,
 			);
 			path = Blueprint;
 			sourceTree = "<group>";
@@ -129,6 +168,95 @@
 			path = BlueprintUITests;
 			sourceTree = "<group>";
 		};
+		1F6C9D8229CDE356000CE2BF /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				1F6C9D8D29CDE6E7000CE2BF /* DateRequestExtension.swift */,
+				1F6C9D9129CDE892000CE2BF /* GithubApi.swift */,
+				1F6C9D9329CDE991000CE2BF /* ApiAssembly.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		1F6C9D8329CDE35E000CE2BF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1F6C9D8529CDE374000CE2BF /* Entity */,
+				1F6C9D8429CDE36C000CE2BF /* Repository */,
+				1F6C9D8229CDE356000CE2BF /* Api */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1F6C9D8429CDE36C000CE2BF /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		1F6C9D8529CDE374000CE2BF /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				1F6C9D8F29CDE797000CE2BF /* RepoEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		1F6C9D8629CDE380000CE2BF /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				1F6C9D8929CDE391000CE2BF /* UseCase */,
+				1F6C9D8829CDE38B000CE2BF /* Repository */,
+				1F6C9D8729CDE385000CE2BF /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		1F6C9D8729CDE385000CE2BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F6C9D8829CDE38B000CE2BF /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		1F6C9D8929CDE391000CE2BF /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		1F6C9D8A29CDE399000CE2BF /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1F6C9D8C29CDE3A7000CE2BF /* View */,
+				1F6C9D8B29CDE3A2000CE2BF /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1F6C9D8B29CDE3A2000CE2BF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1F6C9D8C29CDE3A7000CE2BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,12 +267,17 @@
 				1F6C9D3F29CDE1E8000CE2BF /* Sources */,
 				1F6C9D4029CDE1E8000CE2BF /* Frameworks */,
 				1F6C9D4129CDE1E8000CE2BF /* Resources */,
+				1F43F89A29CDED1B009106C6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Blueprint;
+			packageProductDependencies = (
+				1F6C9D7229CDE21F000CE2BF /* Alamofire */,
+				1F43F89529CDED1B009106C6 /* Swinject */,
+			);
 			productName = Blueprint;
 			productReference = 1F6C9D4329CDE1E8000CE2BF /* Blueprint.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +350,10 @@
 				Base,
 			);
 			mainGroup = 1F6C9D3A29CDE1E8000CE2BF;
+			packageReferences = (
+				1F6C9D7129CDE21F000CE2BF /* XCRemoteSwiftPackageReference "Alamofire" */,
+				1F6C9D7429CDE26C000CE2BF /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = 1F6C9D4429CDE1E8000CE2BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +396,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6C9D9429CDE991000CE2BF /* ApiAssembly.swift in Sources */,
+				1F6C9D8E29CDE6E7000CE2BF /* DateRequestExtension.swift in Sources */,
+				1F6C9D9229CDE892000CE2BF /* GithubApi.swift in Sources */,
 				1F6C9D4929CDE1E8000CE2BF /* ContentView.swift in Sources */,
+				1FE7F10729CDEA8800AE2823 /* DI.swift in Sources */,
+				1F6C9D9029CDE797000CE2BF /* RepoEntity.swift in Sources */,
 				1F6C9D4729CDE1E8000CE2BF /* BlueprintApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -612,6 +754,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F6C9D7129CDE21F000CE2BF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		1F6C9D7429CDE26C000CE2BF /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F43F89529CDED1B009106C6 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F6C9D7429CDE26C000CE2BF /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		1F6C9D7229CDE21F000CE2BF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F6C9D7129CDE21F000CE2BF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1F6C9D3B29CDE1E8000CE2BF /* Project object */;
 }

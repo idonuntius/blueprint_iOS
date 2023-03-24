@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct BlueprintApp: App {
+    init() {
+        resolver = { container }
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
