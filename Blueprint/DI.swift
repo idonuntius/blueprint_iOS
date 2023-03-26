@@ -9,9 +9,10 @@ import Swinject
 
 let container: Container = {
     let container = Container()
-    Assembler(container: container).apply(assemblies: [
-        ApiAssembly()
-    ])
+    Assembler(container: container).apply(assemblies: [ViewModelAssembly(),
+                                                       UseCaseAssembly(),
+                                                       RepositoryAssembly(),
+                                                       ApiAssembly()])
     return container
 }()
 

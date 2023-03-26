@@ -15,7 +15,7 @@ struct BlueprintApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RepoListBuilder()
         }
     }
 }
