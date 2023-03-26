@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1F43F89629CDED1B009106C6 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 1F43F89529CDED1B009106C6 /* Swinject */; };
+		1F43F89C29CDF108009106C6 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43F89B29CDF108009106C6 /* Repo.swift */; };
+		1F43F89E29CDF116009106C6 /* RepoId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43F89D29CDF116009106C6 /* RepoId.swift */; };
+		1F43F8A029CDF1BE009106C6 /* RepoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43F89F29CDF1BE009106C6 /* RepoRepository.swift */; };
+		1F43F8A229CDF205009106C6 /* RepoRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43F8A129CDF205009106C6 /* RepoRepositoryImpl.swift */; };
+		1F43F8A429CF30D8009106C6 /* RepositoryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43F8A329CF30D8009106C6 /* RepositoryAssembly.swift */; };
+		1F43F8A629CF35CE009106C6 /* FetchReposUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43F8A529CF35CE009106C6 /* FetchReposUseCase.swift */; };
+		1F43F8A829CF3616009106C6 /* FetchReposUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43F8A729CF3616009106C6 /* FetchReposUseCaseImpl.swift */; };
+		1F43F8AA29CF36A5009106C6 /* UseCaseAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43F8A929CF36A5009106C6 /* UseCaseAssembly.swift */; };
+		1F43F8AD29CF384D009106C6 /* RepoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43F8AC29CF384D009106C6 /* RepoListViewModel.swift */; };
+		1F43F8AF29CF3860009106C6 /* RepoListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43F8AE29CF3860009106C6 /* RepoListState.swift */; };
+		1F43F8B129CF3A5D009106C6 /* ViewModelAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43F8B029CF3A5D009106C6 /* ViewModelAssembly.swift */; };
+		1F43F8B429CF3B2E009106C6 /* RepoListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43F8B329CF3B2E009106C6 /* RepoListBuilder.swift */; };
+		1F43F8B629CF3BF9009106C6 /* RepoListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43F8B529CF3BF9009106C6 /* RepoListPage.swift */; };
+		1F43F8B829CFCFB6009106C6 /* RepoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43F8B729CFCFB6009106C6 /* RepoItemView.swift */; };
 		1F6C9D4729CDE1E8000CE2BF /* BlueprintApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C9D4629CDE1E8000CE2BF /* BlueprintApp.swift */; };
 		1F6C9D4929CDE1E8000CE2BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C9D4829CDE1E8000CE2BF /* ContentView.swift */; };
 		1F6C9D4B29CDE1E8000CE2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6C9D4A29CDE1E8000CE2BF /* Assets.xcassets */; };
@@ -54,6 +68,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F43F89B29CDF108009106C6 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		1F43F89D29CDF116009106C6 /* RepoId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoId.swift; sourceTree = "<group>"; };
+		1F43F89F29CDF1BE009106C6 /* RepoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoRepository.swift; sourceTree = "<group>"; };
+		1F43F8A129CDF205009106C6 /* RepoRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoRepositoryImpl.swift; sourceTree = "<group>"; };
+		1F43F8A329CF30D8009106C6 /* RepositoryAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryAssembly.swift; sourceTree = "<group>"; };
+		1F43F8A529CF35CE009106C6 /* FetchReposUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchReposUseCase.swift; sourceTree = "<group>"; };
+		1F43F8A729CF3616009106C6 /* FetchReposUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchReposUseCaseImpl.swift; sourceTree = "<group>"; };
+		1F43F8A929CF36A5009106C6 /* UseCaseAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseAssembly.swift; sourceTree = "<group>"; };
+		1F43F8AC29CF384D009106C6 /* RepoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListViewModel.swift; sourceTree = "<group>"; };
+		1F43F8AE29CF3860009106C6 /* RepoListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListState.swift; sourceTree = "<group>"; };
+		1F43F8B029CF3A5D009106C6 /* ViewModelAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelAssembly.swift; sourceTree = "<group>"; };
+		1F43F8B329CF3B2E009106C6 /* RepoListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListBuilder.swift; sourceTree = "<group>"; };
+		1F43F8B529CF3BF9009106C6 /* RepoListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListPage.swift; sourceTree = "<group>"; };
+		1F43F8B729CFCFB6009106C6 /* RepoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoItemView.swift; sourceTree = "<group>"; };
 		1F6C9D4329CDE1E8000CE2BF /* Blueprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blueprint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6C9D4629CDE1E8000CE2BF /* BlueprintApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueprintApp.swift; sourceTree = "<group>"; };
 		1F6C9D4829CDE1E8000CE2BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +132,23 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F43F8AB29CF3840009106C6 /* RepoList */ = {
+			isa = PBXGroup;
+			children = (
+				1F43F8AC29CF384D009106C6 /* RepoListViewModel.swift */,
+				1F43F8AE29CF3860009106C6 /* RepoListState.swift */,
+			);
+			path = RepoList;
+			sourceTree = "<group>";
+		};
+		1F43F8B229CF3B20009106C6 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				1F43F8B329CF3B2E009106C6 /* RepoListBuilder.swift */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 		1F6C9D3A29CDE1E8000CE2BF = {
@@ -191,6 +236,8 @@
 		1F6C9D8429CDE36C000CE2BF /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				1F43F8A129CDF205009106C6 /* RepoRepositoryImpl.swift */,
+				1F43F8A329CF30D8009106C6 /* RepositoryAssembly.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -216,6 +263,8 @@
 		1F6C9D8729CDE385000CE2BF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1F43F89B29CDF108009106C6 /* Repo.swift */,
+				1F43F89D29CDF116009106C6 /* RepoId.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -223,6 +272,7 @@
 		1F6C9D8829CDE38B000CE2BF /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				1F43F89F29CDF1BE009106C6 /* RepoRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -230,6 +280,9 @@
 		1F6C9D8929CDE391000CE2BF /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
+				1F43F8A529CF35CE009106C6 /* FetchReposUseCase.swift */,
+				1F43F8A729CF3616009106C6 /* FetchReposUseCaseImpl.swift */,
+				1F43F8A929CF36A5009106C6 /* UseCaseAssembly.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -237,6 +290,7 @@
 		1F6C9D8A29CDE399000CE2BF /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				1F43F8B229CF3B20009106C6 /* Builder */,
 				1F6C9D8C29CDE3A7000CE2BF /* View */,
 				1F6C9D8B29CDE3A2000CE2BF /* ViewModel */,
 			);
@@ -246,6 +300,8 @@
 		1F6C9D8B29CDE3A2000CE2BF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1F43F8AB29CF3840009106C6 /* RepoList */,
+				1F43F8B029CF3A5D009106C6 /* ViewModelAssembly.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -253,6 +309,8 @@
 		1F6C9D8C29CDE3A7000CE2BF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1F43F8B529CF3BF9009106C6 /* RepoListPage.swift */,
+				1F43F8B729CFCFB6009106C6 /* RepoItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -396,12 +454,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F43F8B429CF3B2E009106C6 /* RepoListBuilder.swift in Sources */,
+				1F43F8AD29CF384D009106C6 /* RepoListViewModel.swift in Sources */,
 				1F6C9D9429CDE991000CE2BF /* ApiAssembly.swift in Sources */,
+				1F43F8A029CDF1BE009106C6 /* RepoRepository.swift in Sources */,
 				1F6C9D8E29CDE6E7000CE2BF /* DateRequestExtension.swift in Sources */,
 				1F6C9D9229CDE892000CE2BF /* GithubApi.swift in Sources */,
+				1F43F8A229CDF205009106C6 /* RepoRepositoryImpl.swift in Sources */,
+				1F43F8A629CF35CE009106C6 /* FetchReposUseCase.swift in Sources */,
+				1F43F8B629CF3BF9009106C6 /* RepoListPage.swift in Sources */,
+				1F43F89E29CDF116009106C6 /* RepoId.swift in Sources */,
+				1F43F89C29CDF108009106C6 /* Repo.swift in Sources */,
+				1F43F8B829CFCFB6009106C6 /* RepoItemView.swift in Sources */,
+				1F43F8A429CF30D8009106C6 /* RepositoryAssembly.swift in Sources */,
 				1F6C9D4929CDE1E8000CE2BF /* ContentView.swift in Sources */,
+				1F43F8AA29CF36A5009106C6 /* UseCaseAssembly.swift in Sources */,
+				1F43F8B129CF3A5D009106C6 /* ViewModelAssembly.swift in Sources */,
 				1FE7F10729CDEA8800AE2823 /* DI.swift in Sources */,
+				1F43F8AF29CF3860009106C6 /* RepoListState.swift in Sources */,
 				1F6C9D9029CDE797000CE2BF /* RepoEntity.swift in Sources */,
+				1F43F8A829CF3616009106C6 /* FetchReposUseCaseImpl.swift in Sources */,
 				1F6C9D4729CDE1E8000CE2BF /* BlueprintApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
